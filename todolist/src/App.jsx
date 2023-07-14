@@ -1,14 +1,13 @@
-function App() {
-  const handleNameChange = () => {
-    const names = ["Husni", "Kiyas", "Raan"];
-    const int = Math.floor(Math.random() * 3);
-    return names[int];
-  };
+import Header from "./Header";
+import Content from "./Content";
+import Footer from "./Footer";
 
+function App() {
   return (
     <>
-      <header>Hello {handleNameChange()}!</header>
-      <main>Test</main>
+      <Header />
+      <Content />
+      <Footer />
     </>
   );
 }
