@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Uses of the spread operator in JavaScript.",
+      "datetime": "July 20, 2023 12:12:21 PM",
+      "body": "Shallow Copying Arrays and Objects, Merging Arrays and Objects, Unpacking Arrays and Objects."
+    },
+    {
+      "id": 2,
+      "title": "In JavaScript, === and == are comparison operators used to compare values.",
+      "datetime": "July 20, 2023 12:17:00 PM",
+      "body": "`===` is the strict equality operator that checks for both value and type equality, while `==` is the equality operator that allows type coercion and only checks for value equality."
+    }
+  ]
+}
